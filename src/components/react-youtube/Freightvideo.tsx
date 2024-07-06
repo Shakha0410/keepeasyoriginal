@@ -5,7 +5,7 @@ interface YoutubeProps {
 	className: string;
 }
 
-const Amazonvideo: FC<YoutubeProps> = ({ className }) => {
+const Freightvideo: FC<YoutubeProps> = ({ className }) => {
 	const onPlayerReady: YouTubeProps["onReady"] = (event) => {
 		// access to player in all event handlers via event.target
 		event.target.pauseVideo();
@@ -28,4 +28,4 @@ const Amazonvideo: FC<YoutubeProps> = ({ className }) => {
 		</>
 	);
 };
-export default Amazonvideo;
+export default Freightvideo;

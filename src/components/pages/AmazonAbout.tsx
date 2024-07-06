@@ -6,7 +6,7 @@ import TeethIcon from "../../assets/img/truck.jpg";
 import MedPlus from "@/assets/icons/route.png";
 import CheckMark from "../../assets/icons/social.png";
 import BxChild from "../../assets/icons/flight-dispatcher.png";
-import Amazonvideo from "../react-youtube/freightvideo";
+import Freightvideo from "../react-youtube/freightvideo";
 
 const AmazonAbout: FC = () => {
 	return (
@@ -45,7 +45,7 @@ const AmazonAbout: FC = () => {
 								<FormattedMessage id="page.about.amazontitle" />
 							</h1>
 							<div className={scss.video__text}>
-								<Amazonvideo className={scss.youtube} />
+								<Freightvideo className={scss.youtube} />
 								<p className={scss.text}>
 									<FormattedMessage id="page.about.about.me.amazon" />
 								</p>
