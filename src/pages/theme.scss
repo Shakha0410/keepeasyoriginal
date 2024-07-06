@@ -1,0 +1,103 @@
+:root {
+	// ! wrapper
+	--wrapper-bg: #ededef;
+
+	// ! header
+	--header-scroll-box-shadow: #eaeaea;
+	--header-scroll: #137ef900;
+	--header-scroll-active: #5050ffe5;
+	--header-scroll-text-color: #000000;
+	--header-scroll-text-color-active: #000000;
+	--header-scroll-text-color-hover: #ffffff;
+	--header-text-color: #5878f7;
+	--header-text-color-active: #060606;
+	--header-text-color-hover: #292929;
+	--header-burger-button: #7d7d7d;
+	--header-burger-menu: #1e1e20;
+	--header-burger-menu-border: rgba(255, 255, 255, 0.151);
+	--header-burger-menu-button-line: #ffffff21;
+	--header-burger-menu-switch-theme-button: #252529;
+	--header-burger-menu-switch-theme-text: #9c9ca3;
+	--header-dropdown-lang-icon-hover: #bdbdbd;
+	--header-dropdown-lang-bg: #ffffff;
+	--header-dropdown-lang-button-hover: #7b7ec1;
+	--header-timetable: #a9b0ff;
+
+	//	! main
+	--home--bg: url("../assets/img/dispatchers.jpg");
+	--home--bg--car: url("../assets/img/MeetCustomer_FullWidth_2x-18.webp");
+	--home--bg--amazon: url("../assets/img/logistic.jpg");
+					--home--bg--learning: url("../assets/img/truck.jpg");
+	--home-border-radius-dentist: #a9b3ff;
+	--about-bg: #f8f8f8;
+	--about-title-color: #000000;
+	--about-text-color: rgba(0, 0, 0, 0.7);
+	--about2-bg: #ffffff;
+	--contact-bg: #fcfcfc;
+	--contact-text-color: #000000;
+	--contact-icon: #aaa9ff;
+	--contact-form-input-bg: #ccb7b7;
+	--contact-form-input-placeholder: #676767;
+
+	// ! footer
+	--footer-bg-dark: #f1f4ff;
+	--footer-title-dark: #a9acff;
+	--footer-text-dark: #656565;
+	--footer-textHover-dark: #262626;
+	--footer-icon-dark: #ffffff;
+	--footer-icon-bg-dark: #13131380;
+	--footer-iconHover-bg-dark: #464f79;
+	--footer-hr-dark: #545454;
+}
+
+[data-theme="dark"] {
+	// ! wrapper
+	--wrapper-bg: #f4f4ff;
+
+	// ! header
+	--header-scroll-box-shadow: #f7f7f7;
+	--header-scroll: #0c131b00;
+	--header-scroll-active: #1e1e20e5;
+	--header-scroll-text-color: #fff;
+	--header-scroll-text-color-active: #000000;
+	--header-scroll-text-color-hover: #bdbdbd;
+	--header-text-color: #fff;
+	--header-text-color-active: #a9b9ff;
+	--header-text-color-hover: #bdbdbd;
+	--header-burger-button: #fff;
+	--header-burger-menu: #1e1e20;
+	--header-burger-menu-border: rgba(255, 255, 255, 0.151);
+	--header-burger-menu-button-line: #ffffff21;
+	--header-burger-menu-switch-theme-button: #252529;
+	--header-burger-menu-switch-theme-text: #9c9ca3;
+	--header-dropdown-lang-icon-hover: #bdbdbd;
+	--header-dropdown-lang-bg: #252529;
+	--header-dropdown-lang-button-hover: #7b81c1;
+	--header-timetable: #a9b5ff;
+
+	//	! main
+	--home--bg: url("../assets/img/dispatchers.jpg");
+	--home--bg--car: url("../assets/img/MeetCustomer_FullWidth_2x-18.webp");
+	--home--bg--amazon: url("../assets/img/logistic.jpg");
+					--home--bg--learning: url("../assets/img/truck.jpg");
+	--home-border-radius-dentist: #a9adff;
+	--about-bg: #1e1e1e;
+	--about-title-color: #ffffff;
+	--about-text-color: rgba(0, 0, 0, 0.7);
+	--about2-bg: #1e1e1e;
+	--contact-bg: #262626;
+	--contact-text-color: #000000;
+	--contact-icon: #aaa9ff;
+	--contact-form-input-bg: #ffffff;
+	--contact-form-input-placeholder: #999999;
+
+	// ! footer
+	--footer-bg-dark: #3d4d7e;
+	--footer-title-dark: #aca9ff;
+	--footer-text-dark: #aaaaaa;
+	--footer-textHover-dark: #fff;
+	--footer-icon-dark: #ffffff;
+	--footer-icon-bg-dark: #13131380;
+	--footer-iconHover-bg-dark: #464c79;
+	--footer-hr-dark: #a5a5a6;
+}
