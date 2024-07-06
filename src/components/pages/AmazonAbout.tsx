@@ -6,7 +6,7 @@ import TeethIcon from "../../assets/img/truck.jpg";
 import MedPlus from "@/assets/icons/route.png";
 import CheckMark from "../../assets/icons/social.png";
 import BxChild from "../../assets/icons/flight-dispatcher.png";
-import Freightvideo from "../react-youtube/freightvideo";
+import Freightvideo from "../react-youtube/Freightvideo";
 
 const AmazonAbout: FC = () => {
 	return (
