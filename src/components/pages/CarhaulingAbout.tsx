@@ -7,7 +7,7 @@ import MedPlus from "@/assets/icons/route.png";
 import CheckMark from "@/assets/icons/frontal-truck.png";
 import BxChild from "../../assets/icons/flight-dispatcher.png";
 import ReactYoutube from "@/components/react-youtube/ReactYoutube";
-import Carhaulingvideo from "../react-youtube/carhaulingvideo";
+import Carhaulingvideo from "../react-youtube/Carhaulingvideo";
 
 const CarhaulingAbout: FC = () => {
 	return (
