@@ -34,21 +34,21 @@ const tabs: tabsProps[] = [
 	// 	label: <FormattedMessage id="page.tabs.button.schedule" />,
 	// 	page: <TabCalendar />
 	// },
-	{
-		icon: <StaffIcon />,
-		label: <FormattedMessage id="page.tabs.button.employees" />,
-		page: <TabStaff />
-	},
+	// {
+	// 	icon: <StaffIcon />,
+	// 	label: <FormattedMessage id="page.tabs.button.employees" />,
+	// 	page: <TabStaff />
+	// },
 	{
 		icon: <PhotoIcon />,
 		label: <FormattedMessage id="page.tabs.button.photo" />,
 		page: <TabPhoto />
 	},
-	{
-		icon: <CertificateIcon />,
-		label: <FormattedMessage id="page.tabs.button.certificate" />,
-		page: <TabСertificate />
-	}
+	// {
+	// 	icon: <CertificateIcon />,
+	// 	label: <FormattedMessage id="page.tabs.button.certificate" />,
+	// 	page: <TabСertificate />
+	// }
 ];
 
 const Tabs: FC = () => {

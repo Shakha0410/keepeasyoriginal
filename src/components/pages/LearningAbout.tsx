@@ -81,7 +81,7 @@ const LearningAbout: FC = () => {
 									alt="CheckMark"
 								/>
 								<p className={scss.text}>
-									<FormattedMessage id="page.about.ticket.second" />
+									<FormattedMessage id="page.about.ticket.second.two" />
 								</p>
 							</div>
 							<div className={scss.card}>

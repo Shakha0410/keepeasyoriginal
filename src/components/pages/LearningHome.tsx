@@ -3,7 +3,7 @@ import scss from "./Style.module.scss";
 import Head from "next/head";
 import { FormattedMessage, useIntl } from "react-intl";
 import { Typewriter } from "react-simple-typewriter";
-import { InstagramIcon, TelegramIcon, WhatAppIcon } from "@/components/svgs";
+import Link from 'next/link';
 
 const LearningHome: FC = () => {
 	const intl: any = useIntl();
@@ -13,8 +13,10 @@ const LearningHome: FC = () => {
 	return (
 		<>
 			<Head>
+
 				<title>{title}</title>
 			</Head>
+			
 			<div id="/" className={scss.learninghome__page}>
 				<div className="container">
 					<div className={scss.content}>

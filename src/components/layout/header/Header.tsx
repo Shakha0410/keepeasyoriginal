@@ -67,6 +67,10 @@ const Header: FC<HeaderProps> = (props) => {
 			label: <FormattedMessage id="page.header.contact" />,
 			href: "/amazon", // Changed the 'to' prop to 'href'
 		  },
+		  {
+			label: <FormattedMessage id="page.header.contact.two" />,
+			href: "/employees", // Changed the 'to' prop to 'href'
+		  },
 	
 	];
 

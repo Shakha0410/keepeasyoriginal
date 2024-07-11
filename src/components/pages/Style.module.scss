@@ -614,7 +614,32 @@ opacity: 0.8;
 					background-color: var(--about-title-color);
 				}
 			}
-
+			.goBackContainer {
+				position: absolute;
+				top: 20px;
+				left: 20px;
+				z-index: 1;
+			  }
+			  
+			  .goBackButton {
+				display: inline-flex;
+				align-items: center;
+				background-color: #fff;
+				border: none;
+				padding: 10px 30px;
+				font-size: 14px;
+				cursor: pointer;
+				text-decoration: none;
+				color: #333;
+			  
+				svg {
+				  margin-right: 10px;
+				}
+			  
+				&:hover {
+				  background-color: #f7f7f7;
+				}
+			  }
 			.video__text {
 				position: relative;
 				z-index: 2;
@@ -739,6 +764,7 @@ opacity: 0.8;
 	background: var(--contact-bg);
 
 	.content {
+		z-index: 9;
 		padding: 70px 0;
 		display: flex;
 		justify-content: space-between;
@@ -755,6 +781,7 @@ opacity: 0.8;
 		}
 
 		.left {
+			z-index: 9;
 			margin-bottom: 40px;
 			width: 100%;
 			max-width: 430px;
@@ -764,21 +791,25 @@ opacity: 0.8;
 		}
 
 		.right {
+			z-index: 9;
 			width: 100%;
 			max-width: 700px;
 
 			.block {
+				z-index: 9;
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
 
 				// ? texts
 				.texts {
+					z-index: 9;
 					display: flex;
 					flex-direction: column;
 					align-items: flex-start;
 
 					.title {
+						z-index: 9;
 						margin-bottom: 15px;
 						font-weight: 600;
 						font-size: 21px;
@@ -793,6 +824,7 @@ opacity: 0.8;
 					}
 
 					.tel {
+						z-index: 9;
 						display: flex;
 						align-items: center;
 						text-decoration: none;
@@ -800,6 +832,7 @@ opacity: 0.8;
 					}
 
 					.text {
+						z-index: 9;
 						display: flex;
 						align-items: center;
 						margin-bottom: 10px;
@@ -824,6 +857,7 @@ opacity: 0.8;
 
 				// ? logo
 				.logo {
+					z-index: 9;
 					$logo__size: 150px;
 					position: relative;
 
@@ -838,6 +872,7 @@ opacity: 0.8;
 					}
 
 					.logo__bg {
+						z-index: 9;
 						position: absolute;
 						top: 50%;
 						transform: translateY(-50%);
@@ -848,6 +883,7 @@ opacity: 0.8;
 						border-radius: 50%;
 
 						.logo__img {
+							z-index: 9;
 							width: 100%;
 							height: 100%;
 							max-width: $logo__size;
@@ -859,6 +895,7 @@ opacity: 0.8;
 			}
 
 			.map {
+				z-index: 9;
 				margin: 35px 0;
 
 				@media (max-width: 500px) {

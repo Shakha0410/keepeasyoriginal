@@ -6,7 +6,7 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@/components/svgs";
 
 import { FormattedMessage } from "react-intl";
 import Image from "next/image";
-import pic1 from "@/assets/certificate/ex-1.png";
+import pic1 from "@/assets/zafar.jpg";
 import pic2 from "@/assets/certificate/ex-2.png";
 import pic3 from "@/assets/certificate/ex-3.png";
 import pic4 from "@/assets/certificate/ex-4.png";

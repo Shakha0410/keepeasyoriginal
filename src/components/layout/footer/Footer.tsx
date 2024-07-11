@@ -49,6 +49,9 @@ const Footer: FC<FooterProps> = (props) => {
 							<a className={scss.link__text} href="/learning">
 								<FormattedMessage id="page.footer.block_2.text_4" />
 							</a>
+							<a className={scss.link__text} href="/employees">
+								<FormattedMessage id="page.header.contact.two" />
+							</a>
 						</div>
 						<div className={scss.block}>
 							<h6>

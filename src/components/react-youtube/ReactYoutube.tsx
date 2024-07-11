@@ -21,7 +21,7 @@ const ReactYoutube: FC<YoutubeProps> = ({ className }) => {
 		<>
 			<YouTube
 				iframeClassName={className}
-				videoId="tc_s4gIFiLk"
+				videoId="VddjNP6sEyw"
 				opts={opts}
 				onReady={onPlayerReady}
 			/>

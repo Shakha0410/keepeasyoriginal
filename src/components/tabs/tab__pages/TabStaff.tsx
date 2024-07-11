@@ -6,11 +6,11 @@ import { ArrowLeftIcon, ArrowRightIcon } from "@/components/svgs";
 
 import { FormattedMessage } from "react-intl";
 import Image from "next/image";
-import pic1 from "../../../assets/certificate/disptacher.jpg";
-import pic2 from "../../../assets/certificate/disptacher.jpg";
-import pic3 from "../../../assets/certificate/disptacher.jpg";
-import pic4 from "../../../assets/certificate/disptacher.jpg";
-import pic5 from "../../../assets/certificate/disptacher.jpg";
+import pic1 from "../../../assets/komil.jpg";
+import pic2 from "../../../assets/zafar.jpg";
+import pic3 from "../../../assets/ulugbek.jpg";
+import pic4 from "../../../assets/shakhzod.jpg";
+import pic5 from "../../../assets/alisher.jpg";
 
 interface SlidersProps {
 	img: any;

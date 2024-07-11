@@ -7,7 +7,8 @@ import CarhaulingBasic from '@/components/pages/CarhaulingBasic';
 
 function index() {
   return (
-    <div><CarhaulingHome />
+    <div>
+      <CarhaulingHome />
     <CarhaulingAbout />
     <CarhaulingBasic />
     <ContactPage />
