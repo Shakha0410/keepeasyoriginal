@@ -44,7 +44,7 @@ const employees = [
     name: 'Jonibek Abdullayev',
     position: 'Accountant',
     description: 'Meticulous Young Car Hauling and Amazon Accountant with 5+ years of experience. Adept at financial reporting, budgeting, and cost analysis for transportation operations. Skilled in navigating complex Amazon seller policies and maximizing profitability. Excellent attention to detail and strong analytical capabilities.',
-    image: '/accountant.jpg',
+    image: '/jonibek.jpg',
   },
   {
     id: 7,
